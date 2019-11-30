@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".WakeUpTimeInterval">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/adfadfasdfasfd"
+        android:text="We need your wake up time and sleep time\nnot to disturb you"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue"
+            android:layout_above="@+id/asdfasdfasdfasdafasdfasdfa"
+            android:layout_marginBottom="8dp"
+            android:layout_centerInParent="true"
+            android:outlineAmbientShadowColor="#bebebe">
+            <TableRow>
+                <TextView
+                    android:text="Sleep Time"
+                    android:textSize="15dp"
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"/>
+                <TextView
+                    android:layout_width="200dp"
+                    android:textColor="#ffffff"
+                    android:paddingRight="30dp"
+                    android:text="Select Here"
+                    android:id="@+id/SleepTimeId"
+                    android:textAlignment="viewEnd"
+                    android:textSize="13dp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:id="@+id/asdfasdfasdfasdafasdfasdfa"
+        android:layout_centerInParent="true"
+        android:outlineAmbientShadowColor="#bebebe">
+        <TableRow>
+            <TextView
+                android:text="WakeUpTime"
+                android:textSize="15dp"
+                android:layout_width="130dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+            <TextView
+                android:layout_width="200dp"
+                android:textColor="#ffffff"
+                android:paddingRight="30dp"
+                android:text="Select Here"
+                android:id="@+id/WakeTimeId"
+                android:textAlignment="viewEnd"
+                android:textSize="13dp"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:layout_below="@+id/asdfasdfasdfasdafasdfasdfa"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true"
+        android:outlineAmbientShadowColor="#bebebe">
+        <TableRow>
+            <TextView
+                android:text="Drinking Interval"
+                android:textSize="15dp"
+                android:layout_width="140dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"/>
+
+            <Spinner
+
+                android:id="@+id/DrinkinInterval"
+                android:layout_width="140dp"
+                android:visibility="visible"
+                android:layout_height="36dp"
+                android:layout_marginLeft="40dp"
+                android:textAlignment="viewEnd"
+                android:textColor="#ffffff"
+                android:textSize="13dp" />
+        </TableRow>
+    </TableLayout>
+
+
+
+
+    <info.hoang8f.widget.FButton
+        app:shadowColor="@color/fbutton_color_asbestos"
+        android:id="@+id/NextButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:drawableRight="@drawable/ic_navigate_next_black_24dp"
+        android:text="OK!"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    </RelativeLayout>

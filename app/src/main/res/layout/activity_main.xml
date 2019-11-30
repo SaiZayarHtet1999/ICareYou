@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi Welcome"
+        android:id="@+id/welcome"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date Of Birth"
+        android:id="@+id/welcomeDate"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:id="@+id/welcomeWeight"
+        android:layout_below="@+id/welcomeDate"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:id="@+id/welcomeHeight"
+        android:layout_below="@+id/welcomeWeight"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/boomWater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        app:bmb_buttonEnum="ham"
+        app:bmb_buttonPlaceEnum="buttonPlace_ham_5"
+        app:bmb_piecePlaceEnum="piecePlace_dot_5_2"
+        app:bmb_rippleEffect="true" />
+
+
+</RelativeLayout>

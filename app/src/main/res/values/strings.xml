@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">I Care You</string>
+<string-array name="drinkInterval">
+    <item>15mins</item>
+    <item>30mins</item>
+    <item>45mins</item>
+    <item>1hour</item>
+    <item>2hours</item>
+    <item>3hours</item>
+</string-array>
+
+</resources>

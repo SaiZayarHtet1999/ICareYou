@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00ccff</color>
+    <color name="Ocean">#2195F1</color>
+    <color name="colorPrimary1">#FF9800</color>
+    <color name="colorPrimaryDark1">#F57C00</color>
+    <color name="colorAccent1">#4CAF50</color>
+    <color name="colorBlue">#90D9E0</color>
+    <color name="colorBluelight">#00ccff</color>
+    <color name="color_concrete">#0E24C2</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+</resources>

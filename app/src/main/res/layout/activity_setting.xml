@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context=".Setting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:textAlignment="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBluelight"
+            android:padding="10dp"
+
+            >
+
+            <TextView
+                android:id="@+id/General"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="General Info"
+                android:textColor="@android:color/white"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/GeneralPhotoSetting"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_below="@+id/General"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/woman" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/GeneralPhotoSetting"
+                android:layout_marginTop="20dp">
+
+                <TableLayout
+                    android:id="@+id/abcdef"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlue"
+                    android:outlineAmbientShadowColor="#bebebe">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:padding="10dp"
+                            android:text="Name"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/UserNameSetting"
+                            android:layout_width="200dp"
+                            android:hint="Fill in Name"
+                            android:paddingRight="20dp"
+                            android:textAlignment="viewEnd"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#ffffff"
+                            android:textSize="13dp" />
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/asdfgh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/abcdef"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorBlue"
+                    android:outlineAmbientShadowColor="#bebebe">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:padding="10dp"
+                            android:text="Date of Birth"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/DateOfBirthSetting"
+                            android:layout_width="200dp"
+                            android:paddingRight="20dp"
+                            android:text="Select Date of Birth"
+                            android:textAlignment="viewEnd"
+                            android:textColor="#ffffff"
+                            android:textSize="13dp" />
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:id="@+id/qwerty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/asdfgh"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorBlue"
+                    android:outlineAmbientShadowColor="#bebebe">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:padding="10dp"
+                            android:text="Weight"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/WeightOfUserSetting"
+                            android:layout_width="200dp"
+                            android:paddingRight="20dp"
+                            android:text="Select Weight"
+                            android:textAlignment="viewEnd"
+                            android:textColor="#ffffff"
+                            android:textSize="13dp" />
+                    </TableRow>
+                </TableLayout>
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/qwerty"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/colorBlue"
+                    android:outlineAmbientShadowColor="#bebebe">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:padding="10dp"
+                            android:text="Height"
+                            android:textColor="#ffffff"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/HeightOfuserSetting"
+                            android:layout_width="200dp"
+                            android:paddingRight="20dp"
+                            android:text="Select Height"
+                            android:textAlignment="viewEnd"
+                            android:textColor="#ffffff"
+                            android:textSize="13dp" />
+                    </TableRow>
+                </TableLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
