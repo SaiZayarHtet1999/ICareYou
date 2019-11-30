@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
      TextView welcome;
     BoomMenuButton bmb;
     TextView textweight,textheight,textDob;
-    private SQLiteDatabaseHandler databaseHandler;
+    public SQLiteDatabaseHandler databaseHandler;
 
 
     @Override
