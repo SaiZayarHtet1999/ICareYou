@@ -4,7 +4,7 @@ import android.app.Application;
 
 import java.util.Date;
 
-public class GlobalClass  extends Application {
+public class GlobalClass extends Application {
     private String Name;
     private String Gender;
     private int Year;
@@ -129,10 +129,10 @@ public class GlobalClass  extends Application {
     }
 
 
-
     public void setGender(String gender) {
         Gender = gender;
     }
+
     public String getGender() {
         return Gender;
     }
@@ -140,6 +140,7 @@ public class GlobalClass  extends Application {
     public String getName() {
         return Name;
     }
+
     public void setName(String name) {
         Name = name;
     }
@@ -147,6 +148,7 @@ public class GlobalClass  extends Application {
     public int getWeight() {
         return Weight;
     }
+
     public void setWeight(int weight) {
         Weight = weight;
     }
